@@ -1,0 +1,6 @@
+github-workflows-containers/poetry.lock
+github-workflows-containers/poetry.toml
+.CHANGELOG.md/
+otebooks/
+data/
+.venv

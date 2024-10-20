@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "github-workflows-containers"
+version = "0.1.0"
+description = ""
+authors = ["zhaohuiwang <ezhwang@gmail.com>"]
+readme = "README.md"
+packages = [{include = "github_workflows_containers", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.test.dependencies]
+ipykernel = "^6.29.5"
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
