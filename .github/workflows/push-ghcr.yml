@@ -1,4 +1,5 @@
 # Secrets in the repository: DOCKERHUB_PATOKEN DOCKERHUB_USERNAME and/or GH_PAT
+# if denied: requested access to the resource is denied, it might need to delete the existing image from DockeHub
 name: Docker Image CI for Github
 on:
   push:
